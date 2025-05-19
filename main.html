@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Lost it, Found it - Home</title>
+</head>
+<body>
+    <header>
+        <div class="left-nav">
+            <img src="icon.png" alt="Website Icon">
+            <h1>Lost it, Found it</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="main.html" class="active">Home</a></li>
+                <li><a href="report-item.html">Report Item</a></li>
+                <li><a href="about us.html">About Us</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li class="account-wrapper">
+                    <div class="account-icon" onclick="toggleDropdown()"></div>
+                    <div class="dropdown" id="dropdown">
+                        <div class="name">Keyyti keyt</div>
+                        <div class="email">kayeteryn@gmail.com</div>
+                        <div class="sign-out"><a href="in/login.html">Sign out</a></div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="feuture-lost and-found">
+            <h2>Featured Items</h2>
+            <div class="posts-container">
+                <div class="lost-items">
+                    <h3>Lost Items</h3>
+                    <div class="item-grid">
+                        <div class="item-card">
+                            <img src="pics/bag1.jpg" alt="Lost bag1">
+                            <h4>Bag</h4>
+                            <p class="item-details">Hawk Bag greay</p>
+                            <p class="contact-info">Contact: <a href="mailto:example1@email.com">example1@email.com</a></p>
+                            <p >Date: 2025-05-11</p>
+                        </div>
+                        <div class="item-card">
+                            <img src="pics/cap1.jpg" alt="Lost cap1">
+                            <h4>Cap</h4>
+                            <p class="item-details">Black cap with peace and heart design</p>
+                            <p class="contact-info">Contact: <a href="mailto:another@email.com">another@email.com</a></p>
+                            <p >Date: 2025-05-12</p>
+                        </div>
+                        <div class="item-card">
+                            <img src="pics/key.jpg" alt="Lost Keys">
+                            <h4>Keys</h4>
+                            <p class="item-details">Motorcycle Honda key</p>
+                            <p class="contact-info">Contact: <a href="mailto:another@email.com">another@email.com</a></p>
+                            <p >Date: 2025-05-11</p>
+                        </div>
+                        <div class="item-card">
+                            <img src="pics/thumbler1.jpg" alt="Lost thumbler1">
+                            <h4>Tumbler</h4>
+                            <p class="item-details">Green Thumbler</p>
+                            <p class="contact-info">Contact: <a href="mailto:another@email.com">another@email.com</a></p>
+                            <p >Date: 2025-05-13</p>
+                        </div>
+                        <div class="item-card">
+                            <img src="pics/bag2.jpg" alt="Lost bag2">
+                            <h4>Bag</h4>
+                            <p class="item-details">White Bag</p>
+                            <p class="contact-info">Contact: <a href="mailto:another@email.com">another@email.com</a></p>
+                            <p >Date: 2025-05-11</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="found-items">
+                    <h3>Found Items</h3>
+                    <div class="item-grid">
+                        <div class="item-card">
+                            <img src="pics/cap2.jpg" alt="Found cap2">
+                            <h4>Cap</h4>
+                            <p class="item-details">Black Cap with smile face design</p>
+                            <p class="contact-info">Contact: <a href="mailto:found@email.com">found@email.com</a></p>
+                            <p >Date: 2025-05-12</p>
+                        </div>
+                        <div class="item-card">
+                            <img src="pics/bag3.jpg" alt="Found bag3">
+                            <h4>Hand Bag</h4>
+                            <p class="item-details">Black hand bag</p>
+                            <p class="contact-info">Contact: <a href="finder@email.com">finder@email.com</a></p>
+                            <p >Date: 2025-05-11</p>
+                        </div>
+                        <div class="item-card">
+                            <img src="pics/thumbler2.jpg" alt="Found thumbler2">
+                            <h4>Tumbler</h4>
+                            <p class="item-details">Black</p>
+                            <p class="contact-info">Contact: <a href="finder@email.com">finder@email.com</a></p>
+                            <p >Date: 2025-05-11</p>
+                        </div>
+                        <div class="item-card">
+                            <img src="pics/bag4.jpg" alt="Found bag4">
+                            <h4>HandBag</h4>
+                            <p class="item-details">White HandBag</p>
+                            <p class="contact-info">Contact: <a href="finder@email.com">finder@email.com</a></p>
+                            <p >Date: 2025-05-12</p>
+                        </div>
+                        <div class="item-card">
+                            <img src="pics/wallet1.jpg" alt="Found Wallet">
+                            <h4>Wallet</h4>
+                            <p class="item-details">white wallet with minimal design</p>
+                            <p class="contact-info">Contact: <a href="finder@email.com">finder@email.com</a></p>
+                            <p >Date: 2025-05-13</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <h2>How to Report Lost/Found Items</h2>
+        <h4 id="step1" class="steps">Step 1: click the report item in navigator tab</h4>
+        <img src="step1.jpg" alt="step1">
+        
+        <h4 id="step2" class="steps">Step 2: fill the item form</h4>
+        <img src="step2.jpg" alt="step2">
+        
+        <h4 id="step3" class="steps">Step 3: Click the submit button</h4>
+         <img src="step3.jpg" alt="step3">
+        <a href="report-item.html" class="btn">Report Item</a>
+
+    </main>
+
+    <footer>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/Admin.keyyt?mibextid=ZbWKwL"><img src="icons/facebook.png" alt="Facebook"></a>
+        <a href="https://x.com/KeyytIsYours"><img src="icons/twitter.png" alt="Twitter"></a>
+        <a href="https://www.instagram.com/keyyyyyytttt?igsh=ajJldjN4dmtwdnVz"><img src="icons/instagram.png" alt="Instagram"></a>
+    </div>
+        <p>&copy; 2025</p>
+    </footer>
+
+    <script src="function.js"></script>
+</body>
+</html>
